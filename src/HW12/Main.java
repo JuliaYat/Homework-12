@@ -11,7 +11,7 @@ public class Main {
         System.out.println("author1.getName() = " + author1.getFirstNameName());
         System.out.println("author1.getName() = " + author1.getSurename());
         System.out.println("book1.age = " + book1.getAge());
-        book1.setAge(1950);
+        book1.setAge(1955);
         System.out.println("book1.age = " + book1.getAge());
         System.out.println();
 
