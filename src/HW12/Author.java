@@ -21,13 +21,6 @@ public class Author {
     public String toString() {
         return this.firstName + " " + this.surename;
     }
-    //public boolean equals(Object other) {
-       // if (this.getClass() != other.getClass()) {
-          //  return false;
-       // }
-       // Author author = (Author) other;
-       // return author.equals(author.firstName);
-    //}
 
     @Override
     public boolean equals(Object o) {
